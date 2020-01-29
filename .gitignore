@@ -3,4 +3,5 @@
 *.sass.map
 *.scss.map
 
-.images/about/
+images/about/
+scss/
