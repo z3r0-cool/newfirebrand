@@ -121,7 +121,7 @@ body.dark {
     text-align: center;
     padding: 0; }
     #page-title .page-title > h1 {
-      font-family: "Poppins", sans-serif;
+      font-family: "IM Fell Double Pica", serif, sans-serif;
       font-size: 2.5rem;
       line-height: 1.2;
       font-weight: 400;
@@ -168,19 +168,19 @@ body.dark {
     background-color: #1f1f1f; }
 
 #header[data-transparent="true"] + #page-title {
-  top: -120px;
-  margin-bottom: -124px;
+  top: -100px;
+  margin-bottom: -104px;
   position: relative;
-  padding: 220px 0 160px 0; }
+  padding: 180px 0 120px 0; }
 
 @media (max-width: 1024px) {
   #page-title .page-title > h1 {
     font-size: 26px;
     line-height: 34px; }
   #header[data-transparent="true"] + #page-title {
-    top: -120px;
-    margin-bottom: -124px;
-    padding: 160px 0 80px 0; } }
+    top: -100px;
+    margin-bottom: -104px;
+    padding: 120px 0 60px 0; } }
 
 /*--------------------------------------------------------
      Content
@@ -1000,8 +1000,8 @@ Topbar
 #topbar ~ #header[data-transparent="true"] + .fullscreen,
 #topbar ~ #header[data-transparent="true"] + .halfscreen,
 #topbar ~ #header[data-transparent="true"] + #google-map {
-  top: -120px;
-  margin-bottom: -120px; }
+  top: -100px;
+  margin-bottom: -100px; }
 
 @media (max-width: 1024px) {
   #topbar.topbar-transparent.dark {
@@ -1017,13 +1017,13 @@ Topbar
   position: relative;
   width: 100%;
   z-index: 199 !important;
-  height: 80px;
-  line-height: 80px; }
+  height: 60px;
+  line-height: 60px; }
   #header .container {
     position: relative; }
   #header .header-inner,
   #header #header-wrap {
-    height: 80px;
+    height: 60px;
     background-color: #fff;
     /*         backface-visibility: hidden;
         -webkit-backface-visibility: hidden; */
@@ -1038,12 +1038,12 @@ Topbar
       position: relative;
       z-index: 1;
       transition: all .4s ease-in-out;
-      height: 80px; }
+      height: 60px; }
       #header .header-inner #logo a > img,
       #header #header-wrap #logo a > img {
         vertical-align: inherit;
         transition: all .4s ease-in-out;
-        height: 80px;
+        height: 60px;
         width: auto; }
       #header .header-inner #logo a > img,
       #header .header-inner #logo a [class*="logo-"],
@@ -1057,7 +1057,7 @@ Topbar
       #header .header-inner #logo a span,
       #header #header-wrap #logo a,
       #header #header-wrap #logo a span {
-        font-family: "Poppins", sans-serif;
+        font-family: "IM Fell Double Pica", serif, sans-serif;
         font-size: 40px;
         color: #1f1f1f;
         font-weight: 800;
@@ -1077,14 +1077,14 @@ Topbar
     #header.header-modern:not(.header-active) + .fullscreen,
     #header.header-modern:not(.header-active) + .halfscreen,
     #header.header-modern:not(.header-active) + #google-map {
-      top: -130px;
-      margin-bottom: -130px; }
+      top: -110px;
+      margin-bottom: -110px; }
   #header.header-mini {
-    line-height: 60px;
-    height: 60px; }
+    line-height: 40px;
+    height: 40px; }
     #header.header-mini .header-inner,
     #header.header-mini #header-wrap {
-      height: 60px; }
+      height: 40px; }
       #header.header-mini .header-inner #mainMenu > .container nav > ul > li > a,
       #header.header-mini #header-wrap #mainMenu > .container nav > ul > li > a {
         font-size: 11px; }
@@ -1093,10 +1093,10 @@ Topbar
         top: -6px; }
       #header.header-mini .header-inner #logo,
       #header.header-mini #header-wrap #logo {
-        height: 60px; }
+        height: 40px; }
         #header.header-mini .header-inner #logo a > img,
         #header.header-mini #header-wrap #logo a > img {
-          height: 60px; }
+          height: 40px; }
         #header.header-mini .header-inner #logo a,
         #header.header-mini .header-inner #logo a span,
         #header.header-mini #header-wrap #logo a,
@@ -1104,33 +1104,33 @@ Topbar
           font-size: 30px; }
       #header.header-mini .header-inner #mainMenu-trigger,
       #header.header-mini #header-wrap #mainMenu-trigger {
-        height: 60px; }
+        height: 40px; }
       #header.header-mini .header-inner .header-extras,
       #header.header-mini #header-wrap .header-extras {
-        height: 60px; }
+        height: 40px; }
   #header.header-alternative {
-    line-height: 60px;
-    height: 60px; }
+    line-height: 40px;
+    height: 40px; }
     #header.header-alternative .header-inner,
     #header.header-alternative #header-wrap {
-      height: 60px; }
+      height: 40px; }
       #header.header-alternative .header-inner #mainMenu > .container nav > ul > li .dropdown-submenu:before,
       #header.header-alternative #header-wrap #mainMenu > .container nav > ul > li .dropdown-submenu:before {
         top: -6px; }
       #header.header-alternative .header-inner #logo,
       #header.header-alternative #header-wrap #logo {
-        height: 60px; }
+        height: 40px; }
         #header.header-alternative .header-inner #logo a > img,
         #header.header-alternative #header-wrap #logo a > img {
-          height: 60px;
+          height: 40px;
           padding-top: 10px;
           padding-bottom: 10px; }
       #header.header-alternative .header-inner #mainMenu-trigger,
       #header.header-alternative #header-wrap #mainMenu-trigger {
-        height: 60px; }
+        height: 40px; }
       #header.header-alternative .header-inner .header-extras,
       #header.header-alternative #header-wrap .header-extras {
-        height: 60px; }
+        height: 40px; }
   #header[data-transparent="true"]:not(.sticky-active) .header-inner,
   #header[data-transparent="true"]:not(.sticky-active) #header-wrap {
     background-color: transparent; }
@@ -1139,8 +1139,8 @@ Topbar
   #header[data-transparent="true"] + .fullscreen,
   #header[data-transparent="true"] + .halfscreen,
   #header[data-transparent="true"] + #google-map {
-    top: -80px;
-    margin-bottom: -80px; }
+    top: -60px;
+    margin-bottom: -60px; }
   #header.header-logo-right .header-inner #logo,
   #header.header-logo-right #header-wrap #logo {
     float: right; }
@@ -1162,12 +1162,12 @@ Topbar
   #header[data-transparent="true"] + .fullscreen,
   #header[data-transparent="true"] + .halfscreen,
   #header[data-transparent="true"] + #google-map {
-    top: -80px;
-    margin-bottom: -80px; }
+    top: -60px;
+    margin-bottom: -60px; }
   #header.header-sticky .header-inner,
   #header.header-sticky #header-wrap {
     transition: top .8s ease-in-out;
-    top: -140px; }
+    top: -120px; }
   #header.header-sticky.sticky-active .header-inner,
   #header.header-sticky.sticky-active #header-wrap {
     box-shadow: 0 12px 6px rgba(0, 0, 0, 0.06);
@@ -1292,14 +1292,14 @@ HEADER: Responsive
 
 @media (max-width: 1024px) {
   #header[data-transparent="true"] + main {
-    top: -120px;
-    margin-bottom: -124px;
+    top: -100px;
+    margin-bottom: -104px;
     position: relative; }
     #header[data-transparent="true"] + main > #page-title {
-      padding: 160px 0 80px 0; }
+      padding: 120px 0 60px 0; }
   #header[data-transparent="true"] + .fullscreen {
-    top: -80px;
-    margin-bottom: -80px; } }
+    top: -60px;
+    margin-bottom: -60px; } }
 
 /* ----------------------------------------------------------------
 Main Menu
@@ -1327,7 +1327,7 @@ Main Menu
         position: relative; }
         #mainMenu nav > ul > li > a {
           position: relative;
-          font-family: "Poppins", sans-serif;
+          font-family: "IM Fell Double Pica", serif, sans-serif;
           padding: 10px 12px;
           text-transform: uppercase;
           font-size: 12px;
@@ -1390,7 +1390,7 @@ Main Menu
             font-weight: 500;
             font-style: normal;
             color: #444;
-            font-family: "Poppins", sans-serif;
+            font-family: "IM Fell Double Pica", serif, sans-serif;
             padding: 12px 20px 12px 18px;
             display: block;
             transition: .3s ease; }
@@ -1431,7 +1431,7 @@ Main Menu
           #mainMenu nav > ul > li.mega-menu-item .mega-menu-content {
             padding: 20px; }
             #mainMenu nav > ul > li.mega-menu-item .mega-menu-content .mega-menu-title {
-              font-family: "Poppins", sans-serif;
+              font-family: "IM Fell Double Pica", serif, sans-serif;
               color: #000000;
               font-size: 13px;
               line-height: 14px;
@@ -2063,7 +2063,7 @@ Main menu - Vertical
   position: absolute;
   opacity: 0;
   visibility: hidden;
-  height: 80px;
+  height: 60px;
   z-index: 1;
   float: right; }
   #mainMenu-trigger button {
@@ -2245,7 +2245,7 @@ Main Menu: Responsive
   float: right;
   z-index: 199;
   position: relative;
-  height: 80px;
+  height: 60px;
   /* Shoping cart*/ }
   .header-extras > ul {
     list-style: none;
@@ -2269,7 +2269,7 @@ Main Menu: Responsive
         right: -2px; }
       .header-extras > ul > li > a:not(.btn),
       .header-extras > ul > li .topbar-dropdown > .title {
-        font-family: "Poppins", sans-serif;
+        font-family: "IM Fell Double Pica", serif, sans-serif;
         font-size: 12px;
         position: relative;
         display: block;
@@ -2848,7 +2848,7 @@ Page Menu
         display: inline-block;
         float: none;
         padding: 0px 2px;
-        font-family: "Poppins", sans-serif; }
+        font-family: "IM Fell Double Pica", serif, sans-serif; }
         .page-menu nav > ul > li:last-child {
           margin-right: 0; }
         .page-menu nav > ul > li > a {
@@ -2885,7 +2885,7 @@ Page Menu
           position: absolute;
           text-align: left;
           list-style: none;
-          font-family: "Poppins", sans-serif;
+          font-family: "IM Fell Double Pica", serif, sans-serif;
           padding: 14px 20px;
           width: auto;
           top: 50px;
@@ -3106,7 +3106,7 @@ body:not(.breakpoint-xs):not(.breakpoint-sm):not(.breakpoint-md) .page-menu nav 
     display: block; } }
 
 .sidebar-menu {
-  font-family: "Poppins", sans-serif; }
+  font-family: "IM Fell Double Pica", serif, sans-serif; }
   .sidebar-menu label {
     display: block;
     text-transform: uppercase;
@@ -3174,7 +3174,7 @@ body {
   line-height: 1.65714286em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Poppins", sans-serif;
+  font-family: "IM Fell Double Pica", serif, sans-serif;
   color: #484848; }
 
 h1,
@@ -3189,7 +3189,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "IM Fell Double Pica", serif, sans-serif;
   color: #1f1f1f;
   margin: 0;
   letter-spacing: 0.5px; }
@@ -3291,7 +3291,7 @@ p {
   line-height: 1.7;
   letter-spacing: 0;
   color: #777777;
-  font-family: "Poppins", sans-serif; }
+  font-family: "IM Fell Double Pica", serif, sans-serif; }
 
 ul.bullets {
   list-style: inside; }
@@ -3615,14 +3615,14 @@ h6.font-parisienne {
 
 @media (max-width: 1024px) {
   #header[data-transparent="true"] + main {
-    top: -120px;
-    margin-bottom: -124px;
+    top: -100px;
+    margin-bottom: -104px;
     position: relative; }
     #header[data-transparent="true"] + main > #page-title {
-      padding: 220px 0 160px 0; }
+      padding: 180px 0 120px 0; }
   #header[data-transparent="true"] + .fullscreen {
-    top: -80px;
-    margin-bottom: -80px; } }
+    top: -60px;
+    margin-bottom: -60px; } }
 
 /*  Portfolio */
 /* ----------------------------------------------------------------
@@ -6756,11 +6756,11 @@ Helpers
   font-size: 14px;
   line-height: 32px;
   font-weight: 400;
-  font-family: "Poppins", sans-serif; }
+  font-family: "IM Fell Double Pica", serif, sans-serif; }
   #footer a:not(.btn) {
     color: #484848; }
   #footer p {
-    font-family: "Poppins", sans-serif; }
+    font-family: "IM Fell Double Pica", serif, sans-serif; }
   #footer a:not(.btn) {
     font-weight: 400; }
   #footer .footer-content {
@@ -6772,7 +6772,7 @@ Helpers
     font-weight: 600; }
     #footer .widget .widget-title ul li a,
     #footer .widget h4 ul li a {
-      font-family: "Poppins", sans-serif;
+      font-family: "IM Fell Double Pica", serif, sans-serif;
       font-size: 15px;
       line-height: 32px;
       color: #999; }
@@ -8004,7 +8004,7 @@ iframe {
   font-size: 12px !important;
   padding: 4px 14px;
   height: 34px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IM Fell Double Pica", serif, sans-serif;
   background-color: #ffffff !important;
   border-color: #ebebeb !important;
   color: #4c5667 !important;
@@ -9086,7 +9086,7 @@ a:not([href]):not([tabindex]):not(.btn) {
 button.btn,
 .btn:not(.close):not(.mfp-close),
 a.btn:not([href]):not([tabindex]) {
-  font-family: "Poppins", sans-serif;
+  font-family: "IM Fell Double Pica", serif, sans-serif;
   border-radius: 5px 5px 5px 5px;
   font-size: 12px;
   font-weight: 600;
@@ -12250,6 +12250,8 @@ span.highlight {
     padding-left: 30px; }
     .team-members.team-members-left .team-member .team-desc > h3 {
       margin-top: 0; }
+    .team-members.team-members-left .team-member .team-desc .icon-wrapper a i {
+      left: 9px; }
 
 /* ----------------------------------------------------------------------
 	Progress Bar

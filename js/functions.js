@@ -878,7 +878,7 @@ var INSPIRO = {},
                 animate_captions($captions);
                 setTimeout(function() {
                   elem.find(".slide video").each(function(i, video) {
-                    video.pause();
+                    // video.pause();
                     video.currentTime = 0;
                   });
                 }, 700);
@@ -1070,9 +1070,9 @@ var INSPIRO = {},
             elem.options.cellAlign = "center";
           }
 
-          if (elem.options.autoPlay == "false") {
-            elem.options.autoPlay = false;
-          }
+           if (elem.options.autoPlay == "false") {
+             elem.options.autoPlay = false;
+           }
           //Initializing plugin and passing the options
           var $carouselElem = $(elem);
           //   .imagesLoaded(function() {

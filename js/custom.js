@@ -1,8 +1,9 @@
-/* 
-
-1. Add your custom JavaScript code below
-2. Place the this code in your template:
-
-  
-
-*/
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 2000);
+    }
+});
