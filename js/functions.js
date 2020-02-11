@@ -790,7 +790,7 @@ var INSPIRO = {},
             fade: elem.data("fade") == true ? true : false,
             draggable: elem.data("drag") == true ? true : false,
             freeScroll: elem.data("free-scroll") == true ? true : false,
-            wrapAround: elem.data("loop") == false ? false : true,
+            // wrapAround: elem.data("loop") == false ? false : true,
             groupCells: elem.data("group-cells") == true ? true : false,
             autoPlay: elem.attr("data-autoplay") || 7000,
             pauseAutoPlayOnHover:
