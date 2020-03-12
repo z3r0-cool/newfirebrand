@@ -8445,6 +8445,10 @@ div.dataTables_wrapper div.dataTables_length select {
     align-self: center;
     margin: 0 auto; }
 
+/*  FAQ */
+.faq-background {
+  background-color: grey; }
+
 /*  Components */
 /* ----------------------------------------------------------------
     Bootstrap Notify
@@ -15012,4 +15016,4 @@ body[data-bg-image] {
 .card .card-body .wizard {
   padding: 1rem; }
 
-
+/* Admin */
